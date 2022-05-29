@@ -223,6 +223,8 @@
 
 		<h2>The small framework with powerful features</h2>
 
+		<a href="C_Login">Login</a>
+
 	</div>
 
 </header>
