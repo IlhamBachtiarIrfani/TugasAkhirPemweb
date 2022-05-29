@@ -1,0 +1,141 @@
+/* Font */
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+} 
+
+
+/* Navbar */
+.navbar-nav{
+    float: right;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar{
+    border-bottom: black;
+}
+
+/* Banner */
+
+.banner{
+    background:#f2af29;
+  }
+  
+  .banner>h2, 
+  .banner .info{
+    height:50px;
+    line-height:50px;
+    position:relative;
+    top:115px;
+    margin:0 auto;
+    text-align:center;
+    width:50%;
+  }
+  
+  .banner>h2{
+    width: 700px;
+    font-size:2.5em;
+    color:#25271E;
+    top: 30px;
+    align-items: center;
+  }
+
+  
+  .banner .info{
+    display:none;
+  }
+  
+  .banner a{
+      height:50px;
+    font-size:1.3em;
+    display:inline-block;
+    width:48%;
+    text-decoration:none;
+    border:2px solid rgba(0,0,0,.3);
+    margin-right:-4px;
+    transition:all .3s ease-in-out;
+  }
+  
+  .banner a:last-child{
+       margin-left:2%;
+  }
+  
+  .banner a:hover{
+    background:#8FC6FF;
+  }
+  .top-padding{
+    padding: 25px;
+  }
+
+  
+
+/* Search Bar */
+
+.searchbar-img{
+  width: 20px;
+  height: 20px;
+}
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  top: 5px;
+}
+
+
+
+/* Body */
+
+.body-image{
+  padding: 10px;
+}
+
+
+.bottom-banner>h3{
+  color: #AD343E;
+}
+
+.bottom-banner{
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,187 @@
+/* Font */
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: bolder;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+} 
+
+#logo-name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+/* Navbar */
+.navbar-nav{
+    float: right;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar{
+    border-bottom: black;
+}
+
+/* Banner */
+.banner{
+    background:#f2af29;
+    height: 500px;
+  }
+  
+  .banner>h2, 
+  .banner .info{
+    height:50px;
+    line-height:50px;
+    top:115px;
+    margin:0 auto;
+    text-align:left;
+    float: left;
+    padding-top: 80px;
+    padding-left: 70px;
+    width:50%;
+  }
+  
+  .banner>h2{
+    font-size:2.5em;
+    color:#000000;
+  }
+.banner>img{
+    padding-top: 50px;
+    padding-right: 70px;
+    float: right;
+}
+  .banner>p{
+      position: absolute;
+      padding-left: 72px;
+      bottom: 350px;
+     float: left;
+  }
+
+  .button-banner{
+    position: absolute;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    top: 370px;
+    left: 72px;
+    width: 200px;
+    height: 40px;
+    transition: all 400ms;
+  }
+  .banner .info{
+    display:none;
+  }
+  
+  .banner a{
+    height:50px;
+    font-size:1.3em;
+    display:inline-block;
+    width:48%;
+    text-decoration:none;
+    border:2px solid rgba(0,0,0,.3);
+    margin-right:-4px;
+    transition:all .3s ease-in-out;
+  }
+  
+  .banner a:last-child{
+       margin-left:2%;
+  }
+  
+  .banner a:hover{
+    background:#8FC6FF;
+  }
+  .button-banner:hover{
+    background-color: #AD343E;
+    color: white;
+
+  }
+  .album-type{
+      padding-left: 80px;
+      padding-top: 24px;
+  }
+
+.btn{
+    color: black;
+}
+
+/* Search Bar */
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  background-color: #F5F5F5;
+}
+.aside {
+  width: 25%;
+  align-items: center;
+}
+.h3-kategori {
+padding-left: 76px;
+font-size: 18px;
+font-weight: bold;
+}
+.list-kategori{
+  border :none;
+  width: 224px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 400ms;
+}
+.list-kategori:hover{
+  background-color: #f2af29;
+}
+
+.div-kategori-list {
+  /* margin: 4px 0px; */
+  align-items: center;
+
+}
+
+.container>footer{
+  width: 100%;
+  height: auto;
+  background-color: #f2af29;
+}
+
+.card{
+  /* 321 310 */
+  width: 322px;
+  height: 310px;
+  }
+
+

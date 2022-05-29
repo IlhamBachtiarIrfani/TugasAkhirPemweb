@@ -90,3 +90,21 @@ CRITICAL - 2022-05-29 09:01:03 --> Call to undefined method CodeIgniter\Database
 #4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
 #6 {main}
+ERROR - 2022-05-29 09:34:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test@gmail.com, 12345678)' at line 1
+CRITICAL - 2022-05-29 09:34:09 --> Call to a member function getResult() on bool
+#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(23): App\Models\M_User->registerUser('test@gmail.com', 'test@gmail.com', '12345678')
+#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->handleLogin()
+#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
+#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-29 09:34:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test@gmail.com, 12345678)' at line 1
+ERROR - 2022-05-29 09:34:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test1@gmail.com, 1234567)' at line 1
+ERROR - 2022-05-29 09:35:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test1@gmail.com, 1234567)' at line 1
+ERROR - 2022-05-29 09:35:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test1@gmail.com, 1234567)' at line 1
+ERROR - 2022-05-29 09:35:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test1@gmail.com, 123)' at line 1
+ERROR - 2022-05-29 09:36:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, test1@gmail.com, 123)' at line 1
+ERROR - 2022-05-29 09:40:43 --> Cannot add or update a child row: a foreign key constraint fails (`tugasakhirpemweb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`IdMitra`) REFERENCES `mitra` (`IdMitra`))
+ERROR - 2022-05-29 09:40:50 --> Cannot add or update a child row: a foreign key constraint fails (`tugasakhirpemweb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`IdMitra`) REFERENCES `mitra` (`IdMitra`))
+ERROR - 2022-05-29 09:41:12 --> Cannot add or update a child row: a foreign key constraint fails (`tugasakhirpemweb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`IdMitra`) REFERENCES `mitra` (`IdMitra`))
