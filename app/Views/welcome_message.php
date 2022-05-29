@@ -221,7 +221,7 @@
 
 		<h1>Welcome to D&S Inc</h1>
 
-		<h2>The small framework with powerful features</h2>
+		<h2>Ini Aplikasi kita bersama gess</h2>
 
 		<a href="C_Login">Login</a>
 
