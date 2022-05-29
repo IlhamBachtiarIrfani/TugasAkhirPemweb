@@ -78,7 +78,7 @@
         <div class="col-lg-4 mb-3">
 
         </div>
-        <div class="col-lg-4 px-5 py-5 rounded border border-1" style=" background-color: #FFFFFF;">
+        <form action="<?= base_url("C_Register/process") ?>" method="POST" class="col-lg-4 px-5 py-5 rounded border border-1" style=" background-color: #FFFFFF;">
             <div class="form-group">
                 <label>Full Name</label>
                 <input type="text" name="fullname" class="form-control">
@@ -91,7 +91,7 @@
             </div>
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" name="passowrd" class="form-control">
+                <input type="password" name="password" class="form-control">
                 <br>
             </div>
             <div class="form-group">
@@ -102,10 +102,10 @@
             <h1 class="mt-3 mb-3" style="font-family: Poppins; font-weight: 400; font-size: 12px;">
                 Dengan ini, saya menyetujui Syarat & Ketentuan dan Kebijakan Privasi.
             </h1>
-            <a href="home.html"><button type="button" class="btn btn-primary btn-lg btn-block w-100" style="color: black; font-size: 14px;">Daftar</button></a>
+            <button type="submit" class="btn btn-primary btn-lg btn-block w-100" style="color: black; font-size: 14px;">Daftar</button>
 
             <small id="emailHelp" class="form-text text-muted text-center">Sudah mempunyai akun?</small><a href="<?= base_url("C_Login") ?>"><button type="button" class="btn btn-link" style="color: red; font-size: 12px">Login Sekarang</button></a>
-        </div>
+        </form>
         <div class="col-lg-4">
 
         </div>
@@ -116,7 +116,7 @@
 
     <!---- Section Footer Start ------------------------------------------------------------>
     <div style=" background-color: #F2AF29;">
-        <div class="container mt-5" ">
+        <div class="container mt-5">
         <footer class=" row py-5 my-5 border-top">
             <div class="col-md-6 col-sm-4">
                 <a href="/" class="

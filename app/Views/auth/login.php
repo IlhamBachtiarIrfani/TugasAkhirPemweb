@@ -78,7 +78,7 @@
         <div class="col-lg-3 mb-3 ">
 
         </div>
-        <form action="<?= base_url("C_Login.php") ?>" class="col-lg-6 px-5 py-5 rounded border border-1" style=" background-color: #FFFFFF;">
+        <form action="<?= base_url("C_Login/process") ?>" method="POST" class="col-lg-6 px-5 py-5 rounded border border-1" style=" background-color: #FFFFFF;">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
                 <input type="email" name="email" class="form-control" id="exampleInputEmail1" required>
