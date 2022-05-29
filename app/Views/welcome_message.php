@@ -219,7 +219,7 @@
 
 	<div class="heroe">
 
-		<h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+		<h1>Welcome to D&S Inc</h1>
 
 		<h2>Ini Aplikasi kita bersama gess</h2>
 
