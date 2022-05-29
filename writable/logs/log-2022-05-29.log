@@ -183,3 +183,23 @@ CRITICAL - 2022-05-29 09:48:54 --> Undefined array key 0
 #9 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
 #10 {main}
 >>>>>>> 9787547644671de03eb4a03c86c0643fd310986a
+CRITICAL - 2022-05-29 10:40:18 --> Invalid file: D_Webinar.php
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('D_Webinar.php')
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('D_Webinar', Array, true)
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\C_DetailWebinar.php(15): view('D_Webinar', Array)
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_DetailWebinar->index()
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailWebinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-29 10:41:52 --> Invalid file: V_DetailWebinar.php
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('V_DetailWebinar...')
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('V_DetailWebinar', Array, true)
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\C_DetailWebinar.php(15): view('V_DetailWebinar', Array)
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_DetailWebinar->index()
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailWebinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
