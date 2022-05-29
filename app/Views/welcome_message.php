@@ -224,6 +224,8 @@
 		<h2>Ini Aplikasi kita bersama gess</h2>
 
 		<a href="C_Login">Login</a>
+		<br>
+		<a href="C_Webinar">Webinar</a>
 
 	</div>
 
