@@ -219,15 +219,15 @@
 
 	<div class="heroe">
 
-		<h1>Welcome to D&S Inc : <?= $userData ?></h1>
+		<h1>Welcome to D&S Inc</h1>
 
 		<h2>Ini Aplikasi kita bersama gess</h2>
 
-		<a href="C_Login">Login</a><br>
-		<a href="C_Login/logout">Logout</a><br>
-
+		<a href="C_Login">Login</a>
 		<br>
 		<a href="C_Webinar">Webinar</a>
+		<br>
+		<a href="C_DetailWebinar">Detail Webinar</a>
 
 	</div>
 

@@ -183,173 +183,25 @@ CRITICAL - 2022-05-29 09:48:54 --> Undefined array key 0
 #9 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
 #10 {main}
 >>>>>>> 9787547644671de03eb4a03c86c0643fd310986a
-CRITICAL - 2022-05-29 10:38:56 --> Undefined array key "password"
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Register.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Xampp\\htdocs...', 19)
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Register->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Register))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-CRITICAL - 2022-05-29 10:39:09 --> Undefined array key "password"
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Register.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Xampp\\htdocs...', 18)
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Register->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Register))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-CRITICAL - 2022-05-29 10:39:21 --> Undefined array key "password"
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Register.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Xampp\\htdocs...', 18)
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Register->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Register))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-ERROR - 2022-05-29 10:42:30 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
-CRITICAL - 2022-05-29 10:42:30 --> Unable to connect to the database.
-Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Models\M_User.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Register.php(30): App\Models\M_User->registerUser('fullname', 'test@gmail.com', '$2y$10$A2ZbwNbm...')
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Register->process()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Register))
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#8 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#9 {main}
-ERROR - 2022-05-29 10:47:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
-CRITICAL - 2022-05-29 10:47:04 --> Call to a member function getRow() on bool
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(25): App\Models\M_User->getUserByEmail('test@gmail.com')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-ERROR - 2022-05-29 10:47:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
-CRITICAL - 2022-05-29 10:47:21 --> Call to a member function getResult() on bool
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(25): App\Models\M_User->getUserByEmail('test@gmail.com')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-ERROR - 2022-05-29 10:47:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
-CRITICAL - 2022-05-29 10:47:54 --> Call to a member function getResult() on bool
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(25): App\Models\M_User->getUserByEmail('test@gmail.com')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-ERROR - 2022-05-29 10:48:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
-CRITICAL - 2022-05-29 10:57:03 --> Undefined property: App\Controllers\C_Login::$session
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 34)
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->process()
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#6 {main}
-CRITICAL - 2022-05-29 11:00:04 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->process()
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#5 {main}
-CRITICAL - 2022-05-29 11:05:52 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): redirect('C_Login')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+CRITICAL - 2022-05-29 10:40:18 --> Invalid file: D_Webinar.php
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('D_Webinar.php')
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('D_Webinar', Array, true)
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\C_DetailWebinar.php(15): view('D_Webinar', Array)
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_DetailWebinar->index()
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailWebinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
-CRITICAL - 2022-05-29 11:06:31 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): redirect('http://localhos...')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#8 {main}
-CRITICAL - 2022-05-29 11:06:32 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): redirect('http://localhos...')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#8 {main}
-CRITICAL - 2022-05-29 11:08:05 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#7 {main}
-CRITICAL - 2022-05-29 11:08:06 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#7 {main}
-CRITICAL - 2022-05-29 11:09:08 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): redirect('Home')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#8 {main}
-CRITICAL - 2022-05-29 11:09:09 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(54): redirect('Home')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#8 {main}
-CRITICAL - 2022-05-29 11:10:55 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(55): redirect('http://localhos...')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
-#8 {main}
-CRITICAL - 2022-05-29 11:10:56 -->  route cannot be found while reverse-routing.
-#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
-#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
-#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Login.php(55): redirect('http://localhos...')
-#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Login->logout()
-#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Login))
-#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+CRITICAL - 2022-05-29 10:41:52 --> Invalid file: V_DetailWebinar.php
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('V_DetailWebinar...')
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('V_DetailWebinar', Array, true)
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\C_DetailWebinar.php(15): view('V_DetailWebinar', Array)
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_DetailWebinar->index()
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_DetailWebinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
 CRITICAL - 2022-05-29 20:36:22 --> You must set the database table to be used with your query.
 #0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
