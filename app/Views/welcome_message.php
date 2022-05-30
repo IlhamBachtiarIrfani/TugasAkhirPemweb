@@ -228,6 +228,7 @@
 		<a href="C_Webinar">Webinar</a>
 		<br>
 		<a href="C_ProdukMitra">Produk Mitra</a>
+		<a href="C_DetailWebinar">Detail Webinar</a>
 
 	</div>
 
