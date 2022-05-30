@@ -164,7 +164,7 @@
                         <div class="col-md-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-sunny.png"
+                                    src=<?=  base_url("/dist/img/mitra-sunny.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
@@ -187,7 +187,7 @@
                         <div class="col-md-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-balenciaga.png"
+                                    src=<?=  base_url("/dist/img/mitra-balenciaga.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
@@ -210,7 +210,7 @@
                         <div class="col-md-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-cakalele.png"
+                                    src=<?=  base_url("/dist/img/mitra-cakalele.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
@@ -233,7 +233,7 @@
                         <div class="col-md-4 mt-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-saung-ayanan.png"
+                                    src=<?=  base_url("/dist/img/mitra-saung-ayanan.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
@@ -258,7 +258,7 @@
                         <div class="col-md-4 mt-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-kripik-pisang.png"
+                                    src=<?=  base_url("/dist/img/mitra-kripik-pisang.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
@@ -283,7 +283,7 @@
                         <div class="col-md-4 mt-4">
                             <div class="border rounded-3">
                                 <img
-                                    src="../dist/img/mitra-heroes-anthem.png"
+                                    src=<?=  base_url("/dist/img/mitra-heroes-anthem.png") ?>
                                     alt=""
                                     class="img-fluid w-100"
                                 />
