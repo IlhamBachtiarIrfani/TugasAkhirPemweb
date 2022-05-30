@@ -8,8 +8,12 @@ class M_Webinar extends Model
 {
     protected $table = 'webinar';
 
-    public function getAllUser()
+    public function getAllWebinar()
     {
         return $this->db->query("SELECT * FROM webinar")->getResult();
+    }
+    
+    public function getWebinarbyId($id) {
+        return @$this->db->query("SELECT * FROM webinar WHERE id = '$id'")->getRow();
     }
 }
