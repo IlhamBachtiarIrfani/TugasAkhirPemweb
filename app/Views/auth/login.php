@@ -15,9 +15,9 @@
         </div>
         <div class="form-group mb-3">
             <label for="exampleInputEmail1">Password</label>
-            <input type="passwordd" name="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="password" name="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
 
-            <small id="emailHelp" class="form-text text-muted">Forgot Password?.</small>
+            <small id="emailHelp" class="form-text text-muted">Forgot Password?</small>
             <br><br>
 
             <button type="submit" class="btn btn-primary btn-lg btn-block w-100" style="color: black; font-size: 14px;">Log in</button>
