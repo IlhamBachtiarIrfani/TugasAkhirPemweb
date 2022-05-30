@@ -11,41 +11,41 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href=<?=base_url("Webinar.css")?> />
+    <link rel="stylesheet" href="<?=base_url("Webinar.css")?>" />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("dist/css/bootstrap-grid.css")?>
+      href="<?=base_url("dist/css/bootstrap-grid.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap-reboot.css")?>
+      href="<?=base_url("/dist/css/bootstrap-reboot.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap-utilities.css")?>
+      href="<?=base_url("/dist/css/bootstrap-utilities.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap.css")?>
+      href="<?=base_url("/dist/css/bootstrap.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="<?=base_url("/dist/css/style.css")?>
+      href="<?=base_url("/dist/css/style.css")?>"
     />
   </head>
 
   <body>
-    <!-- Header  -->
+  <!-- Header  -->
     <div class="container">
       <header
         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
@@ -66,7 +66,7 @@
             height="25"
             viewBox="0 0 21 25"
             fill="none"
-            xmlns=<?=base_url("http://www.w3.org/2000/svg")?>
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               fill-rule="evenodd"
@@ -87,7 +87,7 @@
             <a href="produk.html" class="nav-link">UMKM</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">Webinar</a>
+            <a href="webinar.html" class="nav-link active">Webinar</a>
           </li>
           <li class="nav-item">
             <a href="list_course.html" class="nav-link">Kursus</a>
@@ -160,7 +160,7 @@
                     <span class="badge bg-light text-dark">10 November 2021</span>
                     <span class="badge bg-light text-dark">15:00 - 17:30</span>
                   </div>
-                  <a href="detail_webinar.html"class="btn btn-primary w-100 mt-3">Lihat Detail</a>
+                  <a href="V_DetailWebinar.php"class="btn btn-primary w-100 mt-3">Lihat Detail</a>
                 </div>
               </div>
             </div>

@@ -16,31 +16,31 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap-grid.css")?>
+      href="<?=base_url("/dist/css/bootstrap-grid.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap-reboot.css")?>
+      href="<?=base_url("/dist/css/bootstrap-reboot.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap-utilities.css")?>
+      href="<?=base_url("/dist/css/bootstrap-utilities.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/bootstrap.css")?>
+      href="<?=base_url("/dist/css/bootstrap.css")?>"
     />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href=<?=base_url("/dist/css/style.css")?>
+      href="<?=base_url("/dist/css/style.css")?>"
     />
   </head>
 
