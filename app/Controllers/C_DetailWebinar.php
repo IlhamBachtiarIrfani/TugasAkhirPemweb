@@ -10,7 +10,7 @@ class C_DetailWebinar extends BaseController
     {
         $ModelUser = new M_DetailWebinar();
 
-        $data["webinar"] = $ModelUser->getAllUser();
+        $data["webinar"] = $ModelUser->getAllWebinar();
         
         return view('auth/V_DetailWebinar', $data);
     }
