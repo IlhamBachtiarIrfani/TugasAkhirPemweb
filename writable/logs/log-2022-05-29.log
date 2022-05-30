@@ -351,3 +351,36 @@ CRITICAL - 2022-05-29 11:10:56 -->  route cannot be found while reverse-routing.
 #6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-05-29 20:36:22 --> You must set the database table to be used with your query.
+#0 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_homepage.php(13): CodeIgniter\Model->__call('getAllUser', Array)
+#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_homepage->index()
+#4 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_homepage))
+#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-29 20:43:19 --> Undefined variable $userData
+#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Views\general\header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 67)
+#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('general/header', Array, true)
+#4 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\Home.php(17): view('general/header')
+#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-29 20:47:00 --> Undefined variable $userData
+#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Views\general\header.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 63)
+#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('general/header', Array, true)
+#4 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\Home.php(17): view('general/header')
+#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

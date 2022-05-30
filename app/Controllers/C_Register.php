@@ -18,7 +18,9 @@ class C_Register extends BaseController
             return redirect()->to('');
         }
         
-        return view("auth/register");
+        echo view("general/header");
+        echo view("auth/register");
+        echo view("general/footer");
     }
 
     public function process()

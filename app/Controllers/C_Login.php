@@ -18,7 +18,9 @@ class C_Login extends BaseController
             return redirect()->to('');
         }
 
-        return view("auth/login");
+        echo view("general/header");
+        echo view("auth/login");
+        echo view("general/footer");
     }
 
     public function process()
