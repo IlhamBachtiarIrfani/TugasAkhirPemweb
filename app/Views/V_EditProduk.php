@@ -20,10 +20,24 @@
 
 <body style="width: 100%; overflow-x: hidden;">
     <div class="container" style="background-color: #FFFFFF;">
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0/olxx">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button type="button" class="btn btn-primary">Reset</button>    
     </form>
+
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Sortir Dengan
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg">Tambah Produk</button>
+
+</div>
     <ul class="nav">
                 <li class="nav-item">
                     <a href="<?= base_url() ?>" class="nav-link">Aktif</a>
@@ -48,6 +62,44 @@
                 </li>
             </ul>
     </div>
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nama Produk dan Toko</th>
+      <th scope="col">Nama Varian</th>
+      <th scope="col">SKU</th>
+      <th scope="col">Stok SKU</th>
+      <th scope="col">Harga</th>
+      <th scope="col">Stok</th>
+      <th scope="col">Waktu</th>
+      <th scope="col">Atur</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 
 </html>
