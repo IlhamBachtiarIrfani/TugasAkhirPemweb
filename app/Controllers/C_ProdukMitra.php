@@ -8,6 +8,8 @@ class C_ProdukMitra extends BaseController
 {
     public function index()
     {
-    return view("V_ProdukMitra");
+        echo view("general/header");
+        echo view("V_ProdukMitra");
+        echo view("general/footer");
     }
 }
