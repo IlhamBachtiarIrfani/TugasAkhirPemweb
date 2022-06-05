@@ -34,7 +34,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => 'Dimanaadinda123',
+        'password' => 'ayam_lumpuh',
         'database' => 'tugasakhirpemweb',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',

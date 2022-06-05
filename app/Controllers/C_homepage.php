@@ -8,15 +8,15 @@ class C_homepage  extends BaseController
 {
     public function index()
 <<<<<<< HEAD
-    {    
-        return view("auth/homepage");
-=======
     {
         $ModelUser = new M_User();
 
         $data["user"] = $ModelUser->getAllUser();
         
         return view('homepage', $data);
->>>>>>> d0caa8795be806e7bc4bc29300df10f0993eefae
+=======
+    {    
+        return view("auth/homepage");
+>>>>>>> 10df331a8a9d4be0be018e662907ac2ad86160e6
     }
 }
