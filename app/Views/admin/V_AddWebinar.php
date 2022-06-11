@@ -36,6 +36,6 @@
         <button type="submit" class="btn btn-primary">Tambahkan Webinar</button>
 
         <!-- tombol back/cancel -->
-        <a href="<?= base_url("Admin/C_Slider") ?>" class="btn btn-outline-primary">Batal</a>
+        <a href="<?= base_url("Admin/C_Webinar") ?>" class="btn btn-outline-primary">Batal</a>
     </form>
 </div>
