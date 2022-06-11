@@ -63,7 +63,7 @@ class C_Webinar extends BaseController
             $ModelWebinar = new M_CrudWebinar();
 
             // manggil method di model biar di insert di db
-            $result = $ModelWebinar->addSlider($judul, $deskripsi, $tanggalWebinar, $linkWebinar, $pathGambar);
+            $result = $ModelWebinar->addWebinar($judul, $deskripsi, $tanggalWebinar, $linkWebinar, $pathGambar);
 
             if ($result) {
                 return redirect()->to('Admin/C_Webinar');

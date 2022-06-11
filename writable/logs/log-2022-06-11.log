@@ -102,3 +102,21 @@ CRITICAL - 2022-06-11 04:02:01 --> Call to a member function move() on null
 #4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2022-06-11 04:03:22 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(53): App\Controllers\Admin\C_Slider->uploadImage('gambar')
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Slider->addProcess()
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Slider))
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 04:04:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Webinar.php(66): CodeIgniter\Model->__call('addSlider', Array)
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Webinar->addProcess()
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Webinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
