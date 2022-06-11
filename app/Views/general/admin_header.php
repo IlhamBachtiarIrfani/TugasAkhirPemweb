@@ -58,7 +58,7 @@
                     
                     <a href="" class="nav-link">Mitra</a>
                     
-                    <a href="" class="nav-link">Tambahin sendiri...</a>
+                    <a href="<?= base_url("Admin/C_Webinar") ?>" class="nav-link">Webinar</a>
                 </li>
             </ul>
         </header>
