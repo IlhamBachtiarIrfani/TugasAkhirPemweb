@@ -1,7 +1,7 @@
 <div class="container">
     <h1 class="mb-5">Tambah Webinar</h1>
     <!-- action = link controller buat proses tambah -->
-    <form action="<?= base_url("Admin/C_Slider/AddProcess") ?>" method="POST" enctype="multipart/form-data">
+    <form action="<?= base_url("Admin/C_Webinar/AddProcess") ?>" method="POST" enctype="multipart/form-data">
         <div class="mb-3">
             <label  class="form-label">Judul Webinar</label>
             <!-- JANLUP EDIT NAME INPUT NYA -->
