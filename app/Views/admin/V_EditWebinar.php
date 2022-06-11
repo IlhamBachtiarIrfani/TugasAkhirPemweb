@@ -31,7 +31,7 @@
         </div>
 
         <div class="mb-3">
-            <label class="form-label">Deskripsi Webinar</label>
+            <label class="form-label">Link Webinar</label>
             <!-- JANLUP EDIT NAME INPUT NYA -->
             <!-- KALO TEXTAREA KASIH VALUENYA DIANTARA TAG -->
             <textarea name="linkWebinar" class="form-control" placeholder="Ini Link Webinar" rows="5"><?= $webinarData["LinkWebinar"] ?></textarea>

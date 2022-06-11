@@ -10,7 +10,7 @@
                 <th>Judul</th>
                 <th>Deskripsi</th>
                 <th>Tanggal</th>
-                <th>Gambar</th>
+                <th>Poster</th>
                 <th>Link</th>
                 <th style="min-width: 180px;">Action</th>
             </tr>
