@@ -30,13 +30,13 @@
                     wirausahamu</h1>
             </div>
             <div class="col-lg-4 mb-3">
-                <img src="../dist/img/gambarawal.png" class="img-fluid">
+                <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/kursus.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 512 KURSUS TERSEDIA </div>
             </div>
             <div class="col-lg-4">
-                <img src="../dist/img/gambarkedua.png" class="img-fluid">
+            <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/kerjasama.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 512 KERJA SAMA MITRA </div>
             </div>
             <div class="col-lg-4">
-                <img src="../dist/img/gambarketiga.png" class="img-fluid">
+            <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/toko.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 892 UMKM BERGABUNG </div>
             </div>
         </div>
     </div>
