@@ -30,7 +30,7 @@
                     wirausahamu</h1>
             </div>
             <div class="col-lg-4 mb-3">
-                <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/kursus.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 512 KURSUS TERSEDIA </div>
+            <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/kursus.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 512 KURSUS TERSEDIA </div>
             </div>
             <div class="col-lg-4">
             <div class="p-1 mb-2 bg-white rounded" ><img src="../dist/img/kerjasama.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> 512 KERJA SAMA MITRA </div>
@@ -79,7 +79,16 @@
 <div class="container my-5">
     <div class="row mt-5 pt-5">
         <div class="col-lg-12 mx-auto pt-5">
-            <img src="<?= base_url("/dist/img/pendapat.png") ?>" style="display: block; margin: 0 auto;" />
+            <h1 class = "mt-5 mb-3" style="font-family: Playfair Display; font-weight: 900; font-size: 32px;">Pendapat Mereka</h1>
+            <div class="col-lg-4">
+            <div class="p-1 mb-2 bg-warning rounded" >
+            <img src="../dist/img/kerjasama.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> Bergabung di D&S Inc sangat membantu dalam perkembangan UMKM yang saya dirikan. D&S Inc juga menyediakan webinar dan course yang sangat bermanfaat 
+            untuk mempelajari tentang bisnis secara online. Saya merasa sangat terbantu degan adanya D&S Inc ini </div>
+            </div>
+            <div class="p-4 mb-5 .bg-secondary rounded" >
+            <img src="../dist/img/kerjasama.png" style="font-family: Poppins; font-weight: 150; font-size: 32px"> Bergabung di D&S Inc sangat membantu dalam perkembangan UMKM yang saya dirikan. D&S Inc juga menyediakan webinar dan course yang sangat bermanfaat 
+            untuk mempelajari tentang bisnis secara online. Saya merasa sangat terbantu degan adanya D&S Inc ini </div>
+            <button type="button" class="btn btn-warning px-4 py-2">Tambah Pendapat Anda</button>
         </div>
     </div>
 </div>
