@@ -1,0 +1,20 @@
+CRITICAL - 2022-06-15 02:46:34 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Webinar.php(166): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Webinar.php(124): App\Controllers\Admin\C_Webinar->uploadImage('new_gambar')
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Webinar->editProcess('1')
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Webinar))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-15 02:47:52 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(154): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(112): App\Controllers\Admin\C_Slider->uploadImage('new_gambar')
+#3 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Slider->editProcess('1')
+#4 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Slider))
+#5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
