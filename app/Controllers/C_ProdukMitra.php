@@ -18,7 +18,9 @@ class C_ProdukMitra extends BaseController
         // variabel data nanti yang dikirim ke view
         $data["sliderData"] = $result;
 
-        echo view("general/header");
+        $data["userData"] = $this->session->get("user_name");
+
+        echo view("general/header", $data);
         // datanya ditaruh situ biar ke kirim ke view dan bisa diakses di view
         echo view("V_ProdukMitra", $data);
         echo view("general/footer");
