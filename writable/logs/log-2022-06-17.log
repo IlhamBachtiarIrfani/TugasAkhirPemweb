@@ -1,0 +1,99 @@
+CRITICAL - 2022-06-17 20:34:31 --> Class "App\Models\M_Feedback" not found
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-17 20:34:34 --> Class "App\Models\M_Feedback" not found
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-17 20:39:45 --> Invalid file: admin/V_AddFeedback.php
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/V_AddFeed...')
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_AddFeed...', Array, true)
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\C_AddFeedback.php(28): view('admin/V_AddFeed...', Array)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_AddFeedback->index()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_AddFeedback))
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 20:39:46 --> Invalid file: admin/V_AddFeedback.php
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/V_AddFeed...')
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_AddFeed...', Array, true)
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\C_AddFeedback.php(28): view('admin/V_AddFeed...', Array)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_AddFeedback->index()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_AddFeedback))
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 23:38:38 --> Undefined array key "rating"
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->addProcess()
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-17 23:39:11 --> Undefined array key "rating"
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->addProcess()
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-17 23:39:52 --> Unknown column 'Dekripsi' in 'field list'
+ERROR - 2022-06-17 23:40:13 --> Unknown column 'Dekripsi' in 'field list'
+CRITICAL - 2022-06-17 23:40:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\C_homepage.php(13): CodeIgniter\Model->__call('getAllUser', Array)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_homepage->index()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_homepage))
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-17 23:41:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\C_homepage.php(13): CodeIgniter\Model->__call('getAllUser', Array)
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_homepage->index()
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_homepage))
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-06-17 23:43:08 --> Unknown column 'Dekripsi' in 'field list'
+ERROR - 2022-06-17 23:45:56 --> Unknown column 'Dekripsi' in 'field list'
+ERROR - 2022-06-17 23:47:19 --> Unknown column 'Dekripsi' in 'field list'
+CRITICAL - 2022-06-17 23:52:26 --> Undefined array key "id_slider"
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Views\admin\V_ListFeedback.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListFee...', Array, true)
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(28): view('admin/V_ListFee...', Array)
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-17 23:52:33 --> Undefined array key "id_slider"
+#0 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Views\admin\V_ListFeedback.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListFee...', Array, true)
+#4 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(28): view('admin/V_ListFee...', Array)
+#5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -55,10 +55,11 @@
             <ul class="nav">
                 <li class="nav-item">
                     <a href="<?= base_url("Admin/C_Slider") ?>" class="nav-link">Slider</a>
-                    
+                        
                     <a href="" class="nav-link">Mitra</a>
                     
                     <a href="<?= base_url("Admin/C_Webinar") ?>" class="nav-link">Webinar</a>
+                    <a href="<?= base_url("Admin/C_Feedback") ?>" class="nav-link">Feedback</a>
                 </li>
             </ul>
         </header>
