@@ -18,22 +18,22 @@
         <tbody>
             <?php foreach ($webinarData as $key => $item) { ?>
                 <tr>
-                    <!-- id_slider itu nama kolom di tabel ye -->
+                    <!-- id_webinar itu nama kolom di tabel ye -->
                     <td><?= $item["idWebinar"] ?></td>
 
-                    <!-- judul_slider itu nama kolom di tabel ye -->
+                    <!-- judul_webinar itu nama kolom di tabel ye -->
                     <td><?= $item["Title"] ?></td>
 
-                    <!-- desrkipsi_slider itu nama kolom di tabel ye -->
+                    <!-- desrkipsi_webinar itu nama kolom di tabel ye -->
                     <td><?= $item["Deskripsi"] ?></td>
 
-                    <!-- tanggal_slider itu nama kolom di tabel ye -->
+                    <!-- tanggal_webinar itu nama kolom di tabel ye -->
                     <td><?= $item["TanggalWebinar"] ?></td>
 
-                    <!-- url_gambar_slider itu nama kolom di tabel ye -->
+                    <!-- url_gambar_webinar itu nama kolom di tabel ye -->
                     <td><img class="img-fluid" src="<?= base_url($item["PosterWebinar"]) ?>" /></td>
 
-                    <!-- link_slider itu nama kolom di tabel ye -->
+                    <!-- link_webinar itu nama kolom di tabel ye -->
                     <td><?= $item["LinkWebinar"] ?></td>
 
                     <!-- tombol buat edit/delete -->

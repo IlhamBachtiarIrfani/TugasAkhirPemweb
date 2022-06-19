@@ -11,13 +11,13 @@ use App\Models\M_CrudWebinar;
 
 class C_Webinar extends BaseController
 {
-    // ini halaman list slider
+    // ini halaman list webinar
     public function index()
     {
-        // ini buat inisiasi objek model slider
+        // ini buat inisiasi objek model webinar
         $ModelWebinar = new M_CrudWebinar();
 
-        // ini buat menggil method getAllSlider biar dapet data slidernya apa aja
+        // ini buat menggil method getAllWebinar biar dapet data webinarnya apa aja
         $result = $ModelWebinar->getAllWebinar();
 
         // variabel data nanti yang dikirim ke view
@@ -29,7 +29,7 @@ class C_Webinar extends BaseController
         echo view("general/admin_footer");
     }
 
-    // ini halaman tambah slider
+    // ini halaman tambah webinar
     public function add()
     {
         echo view("general/admin_header");
@@ -37,7 +37,7 @@ class C_Webinar extends BaseController
         echo view("general/admin_footer");
     }
 
-    // ini method buat proses add slider
+    // ini method buat proses add webinar
     public function addProcess()
     {
         // judul itu name inputnya
@@ -59,7 +59,7 @@ class C_Webinar extends BaseController
             // gambar itu name inputnya
             $pathGambar = $this->uploadImage("posterWebinar");
 
-            // ini buat inisiasi objek model slider
+            // ini buat inisiasi objek model webinar
             $ModelWebinar = new M_CrudWebinar();
 
             // manggil method di model biar di insert di db
@@ -73,10 +73,10 @@ class C_Webinar extends BaseController
         }
     }
 
-    // ini halaman edit slider
+    // ini halaman edit webinar
     public function edit($id = null)
     {
-        // ini buat inisiasi objek model slider
+        // ini buat inisiasi objek model webinar
         $ModelWebinar = new M_CrudWebinar();
 
         // manggil method di model biar dapet data berdasarkan idnya
@@ -95,7 +95,7 @@ class C_Webinar extends BaseController
         echo view("general/admin_footer");
     }
 
-    // ini method buat proses add slider
+    // ini method buat proses add webinar
     public function editProcess($id)
     {
         // judul itu name inputnya
@@ -124,7 +124,7 @@ class C_Webinar extends BaseController
                 $pathGambar = $this->uploadImage("new_gambar");
             }
 
-            // ini buat inisiasi objek model slider
+            // ini buat inisiasi objek model webinar
             $ModelWebinar = new M_CrudWebinar();
 
             // manggil method di model biar di update di db
@@ -140,7 +140,7 @@ class C_Webinar extends BaseController
 
     public function delete($id = null)
     {
-        // ini buat inisiasi objek model slider
+        // ini buat inisiasi objek model webinar
         $ModelWebinar = new M_CrudWebinar();
 
         // manggil method di model biar di delete di db

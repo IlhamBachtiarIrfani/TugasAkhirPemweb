@@ -28,7 +28,7 @@ class M_CrudWebinar extends Model
         // ini buat select, kasih paramter sesuai kolom yang mau diambil
         $query->select("*");
 
-        // ini buat query where biar id_slider = $id
+        // ini buat query where biar id_webinar = $id
         $query->where("idWebinar", $id);
 
         // ini buat ngeeksekusi querynya terus ambil respon nya
@@ -73,7 +73,7 @@ class M_CrudWebinar extends Model
 
         $query->set($data);
 
-        // ini buat query where biar id_slider = $id
+        // ini buat query where biar id_webinar = $id
         $query->where("idWebinar", $id);
 
         // ini buat ngeeksekusi query updatenya terus ambil respon nya
@@ -87,7 +87,7 @@ class M_CrudWebinar extends Model
     {
         $query = $this->db->table("webinar");
 
-        // ini buat query where biar id_slider = $id
+        // ini buat query where biar id_webinar = $id
         $query->where("idWebinar", $id);
 
         // ini buat ngeeksekusi query deletenya terus ambil respon nya
