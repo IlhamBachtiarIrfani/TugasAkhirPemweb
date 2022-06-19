@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ERROR - 2022-06-18 09:39:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
 CRITICAL - 2022-06-18 09:39:35 --> Unable to connect to the database.
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it
@@ -89,4 +90,30 @@ CRITICAL - 2022-06-18 23:03:00 --> Invalid file: admin/V_AddFeedback.php
 #5 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+=======
+ERROR - 2022-06-18 01:42:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-18 01:42:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\TugasAkhirPemweb\app\Models\M_Slider.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_ProdukMitra.php(16): App\Models\M_Slider->getAllSlider()
+#4 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_ProdukMitra->index()
+#5 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_ProdukMitra))
+#6 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-18 01:48:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-06-18 01:48:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\TugasAkhirPemweb\app\Models\M_Webinar.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#2 D:\xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Webinar.php(13): App\Models\M_Webinar->getAllWebinar()
+#3 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Webinar->index()
+#4 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Webinar))
+#5 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+>>>>>>> 37a26aaf2a86f2e2410fd5d41b6b730079aaddbe
 #8 {main}

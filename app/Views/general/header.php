@@ -63,6 +63,9 @@
                     <a href="<?= base_url("C_Webinar") ?>" class="nav-link">Webinar</a>
                 </li>
                 <li class="nav-item">
+                    <a href="<?= base_url() ?>" class="nav-link">Produk</a>
+                </li>
+                <li class="nav-item">
                     <a href="<?= base_url() ?>" class="nav-link ">Mitra</a>
                 </li>
                 <li class="nav-item">
