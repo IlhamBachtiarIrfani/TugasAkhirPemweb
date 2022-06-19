@@ -2,7 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Models\M_User;
+use App\Controllers\BaseController;
+
+use App\Models;
 
 class C_ListProduk extends BaseController
 {

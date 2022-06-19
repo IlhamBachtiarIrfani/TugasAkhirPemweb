@@ -4,7 +4,7 @@ namespace App\Models;
 
 use codeigniter\Model;
 
-class M_AddProduk extends Model {
+class M_Produk extends Model {
 
      public function addProduk($namaProduk, $foto, $deskripsi, $harga, $rating)
      {
