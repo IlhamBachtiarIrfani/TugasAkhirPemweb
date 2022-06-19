@@ -18,14 +18,14 @@ class C_Produk extends BaseController
         $ModelProduk = new M_Produk();
 
         // ini buat menggil method getAllSlider biar dapet data slidernya apa aja
-        $result = $ModelProduk->getAllSlider();
+        $result = $ModelProduk->getAllProduk();
 
         // variabel data nanti yang dikirim ke view
-        $data["sliderData"] = $result;
+        $data["produkData"] = $result;
 
         echo view("general/admin_header");
         // datanya ditaruh situ biar ke kirim ke view dan bisa diakses di view
-        echo view("admin/V_ListSlider", $data);
+        echo view("admin/V_ListProduk", $data);
         echo view("general/admin_footer");
     }
 
@@ -33,7 +33,7 @@ class C_Produk extends BaseController
     public function add()
     {
         echo view("general/admin_header");
-        echo view("admin/V_AddSlider");
+        echo view("admin/V_AddProduk");
         echo view("general/admin_footer");
     }
 
@@ -59,32 +59,32 @@ class C_Produk extends BaseController
             $result = $ModelSlider->addSlider($judul, $deskripsi, $pathGambar);
 
             if ($result) {
-                return redirect()->to('Admin/C_Slider');
+                return redirect()->to('Admin/C_Produk');
             } else {
-                echo "Penambahan Slider Gagal!";
+                echo "Penambahan Produk Gagal!";
             }
         }
     }
 
-    // ini halaman edit slider
+    // ini halaman edit webinar
     public function edit($id = null)
     {
-        // ini buat inisiasi objek model slider
-        $ModelSlider = new M_Produk();
+        // ini buat inisiasi objek model webinar
+        $ModelProduk = new M_CrudProduk();
 
         // manggil method di model biar dapet data berdasarkan idnya
-        $sliderData = $ModelSlider->getSliderById($id);
+        $produkData = $ModelProduk->getProdukById($id);
 
         // ngechek datanya ada apa enggak
-        if (!isset($sliderData)) {
+        if (!isset($produkData)) {
             return "Data tidak ditemukan";
         }
 
         // variabel data nanti yang dikirim ke view
-        $data["sliderData"] = $sliderData;
+        $data["produkData"] = $produkData;
 
         echo view("general/admin_header");
-        echo view("admin/V_EditSlider", $data);
+        echo view("admin/V_EditProduk", $data);
         echo view("general/admin_footer");
     }
 
@@ -113,15 +113,15 @@ class C_Produk extends BaseController
             }
 
             // ini buat inisiasi objek model slider
-            $ModelSlider = new M_Produk();
+            $ModelProduk = new M_Produk();
 
             // manggil method di model biar di update di db
-            $result = $ModelSlider->editSlider($id, $judul, $deskripsi, $pathGambar);
+            $result = $ModelProduk->editProduk($id, $judul, $deskripsi, $pathGambar);
 
             if ($result) {
-                return redirect()->to('Admin/C_Slider');
+                return redirect()->to('Admin/C_Produk');
             } else {
-                echo "Perubahan Slider Gagal!";
+                echo "Perubahan Produk Gagal!";
             }
         }
     }
@@ -129,15 +129,15 @@ class C_Produk extends BaseController
     public function delete($id = null)
     {
         // ini buat inisiasi objek model slider
-        $ModelSlider = new M_Produk();
+        $ModelProduk = new M_Produk();
 
         // manggil method di model biar di delete di db
-        $result = $ModelSlider->deleteSlider($id);
+        $result = $ModelProduk->deleteSlider($id);
 
         if ($result) {
-            return redirect()->to('Admin/C_Slider');
+            return redirect()->to('Admin/C_Produk');
         } else {
-            echo "Penghapusan Slider Gagal!";
+            echo "Penghapusan Produk Gagal!";
         }
     }
 

@@ -34,7 +34,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => 'rahasia',
+        'password' => '',
         'database' => 'tugasakhirpemweb',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
@@ -59,7 +59,7 @@ class Database extends Config
     public $tests = [
         'DSN'      => '',
         'hostname' => '127.0.0.1',
-        'username' => '',
+        'username' => 'root',
         'password' => '',
         'database' => ':memory:',
         'DBDriver' => 'SQLite3',
