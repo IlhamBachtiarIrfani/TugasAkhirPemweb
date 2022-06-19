@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CRITICAL - 2022-06-15 05:02:07 --> Invalid file: V_AddProduk.php
 #0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('V_AddProduk.php')
 #1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('V_AddProduk', Array, true)
@@ -8,7 +7,6 @@ CRITICAL - 2022-06-15 05:02:07 --> Invalid file: V_AddProduk.php
 #5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
-=======
 CRITICAL - 2022-06-15 02:46:34 --> The original file is not a valid file.
 #0 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
 #1 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\app\Controllers\Admin\C_Webinar.php(166): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
@@ -28,5 +26,4 @@ CRITICAL - 2022-06-15 02:47:52 --> The original file is not a valid file.
 #5 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\TugasAkhirPemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
->>>>>>> 10d9e53631855ea83f2e543feaba9aeb7eb02abc
 #8 {main}
