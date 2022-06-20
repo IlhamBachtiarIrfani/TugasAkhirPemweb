@@ -119,7 +119,7 @@ class C_Webinar extends BaseController
             $pathGambar = $oldGambar;
 
             // upload gambar kalo ada yang baru aja
-            if ($_FILES["new_gambar"]) {
+            if ($_FILES['new_gambar']['size'] == 0 && $_FILES['new_gambar']['error'] == 0) {
                 // gambar itu name inputnya
                 $pathGambar = $this->uploadImage("new_gambar");
             }
@@ -130,7 +130,7 @@ class C_Webinar extends BaseController
             // manggil method di model biar di update di db
             $result = $ModelWebinar->editWebinar($id, $judul, $deskripsi, $tanggalWebinar, $linkWebinar, $pathGambar);
 
-            if ($result) {
+            if ($result >= 0) {
                 return redirect()->to('Admin/C_Webinar');
             } else {
                 echo "Perubahan Webinar Gagal!";
