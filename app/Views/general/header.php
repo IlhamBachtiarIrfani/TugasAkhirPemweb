@@ -65,7 +65,7 @@
                     <a href="<?= base_url("C_Webinar") ?>" class="nav-link">Webinar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url("C_Produk") ?>" class="nav-link">Produk</a>
+                    <a href="<?= base_url("C_ProdukAuth") ?>" class="nav-link">Produk</a>
                 </li>
                 <li class="nav-item">
                     <a href="<?= base_url() ?>" class="nav-link ">Mitra</a>
