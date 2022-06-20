@@ -68,7 +68,7 @@
                     <span class="badge bg-light text-dark">10 November 2021</span>
                     <span class="badge bg-light text-dark">15:00 - 17:30</span>
                   </div>
-                  <a href="C_DetailWebinar"class="btn btn-primary w-100 mt-3">Lihat Detail</a>
+                  <a href="<?= base_url("C_DetailWebinar") ?>" class="btn btn-primary w-100 mt-3">Lihat Detail</a>
                 </div>
               </div>
             </div>
