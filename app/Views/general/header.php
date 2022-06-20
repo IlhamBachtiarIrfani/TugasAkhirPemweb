@@ -59,9 +59,6 @@
                     <a href="<?= base_url() ?>" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url("C_ProdukMitra") ?>" class="nav-link">UMKM</a>
-                </li>
-                <li class="nav-item">
                     <a href="<?= base_url("C_Webinar") ?>" class="nav-link">Webinar</a>
                 </li>
                 <li class="nav-item">
