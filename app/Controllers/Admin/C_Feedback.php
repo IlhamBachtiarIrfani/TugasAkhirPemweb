@@ -25,7 +25,7 @@ class C_Feedback extends BaseController
 
         echo view("general/admin_header");
         // datanya ditaruh situ biar ke kirim ke view dan bisa diakses di view
-        echo view("auth/V_ListFeedback", $data);
+        echo view("admin/V_ListFeedback", $data);
         echo view("general/admin_footer");
     }
 
@@ -33,7 +33,7 @@ class C_Feedback extends BaseController
     public function add()
     {
         echo view("general/admin_header");
-        echo view("admin/V_AddFeedback");
+        echo view("auth/V_AddFeedback");
         echo view("general/admin_footer");
     }
 
