@@ -114,9 +114,9 @@ class C_Produk extends BaseController
             $foto = $oldFoto;
 
             // upload gambar kalo ada yang baru aja
-            if ($_FILES['new_gambar']['size'] == 0 && $_FILES['new_gambar']['error'] == 0) {
+            if ($_FILES['new_foto']['size'] == 0 && $_FILES['new_foto']['error'] == 0) {
                 // gambar itu name inputnya
-                $pathGambar = $this->uploadImage("new_gambar");
+                $pathGambar = $this->uploadImage("new_foto");
             }
 
             // ini buat inisiasi objek model slider
