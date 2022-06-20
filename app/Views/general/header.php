@@ -65,7 +65,7 @@
                     <a href="<?= base_url("C_Produk") ?>" class="nav-link">Produk</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url() ?>" class="nav-link ">Mitra</a>
+                    <a href="<?= base_url("C_Mitra") ?>" class="nav-link ">Mitra</a>
                 </li>
                 <li class="nav-item">
                     <a href="<?= base_url("C_TentangKami") ?>" class="nav-link">Tentang Kami</a>

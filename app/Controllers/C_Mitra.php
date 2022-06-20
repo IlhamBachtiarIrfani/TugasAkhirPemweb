@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 
-class C_TentangKami extends BaseController
+class C_Mitra extends BaseController
 {
     public function index()
     {
@@ -11,7 +11,7 @@ class C_TentangKami extends BaseController
         $data["userData"] = $this->session->get("user_name");
 
         echo view("general/header", $data);
-        echo view('auth/V_TentangKami');
+        echo view('auth/V_Mitra');
         echo view("general/footer");
     }
 }
