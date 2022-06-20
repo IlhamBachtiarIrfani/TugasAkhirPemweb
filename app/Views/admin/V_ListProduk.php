@@ -1,7 +1,7 @@
 <div class="container">
-    <h1>Daftar Slider</h1>
+    <h1>Daftar Produk</h1>
     <!-- tombol buat tambah -->
-    <a href="<?= base_url("Admin/C_Slider/Add") ?>" class="btn btn-primary"><i class="fa-solid fa-plus me-1"></i>Tambah Slider</a>
+    <a href="<?= base_url("Admin/C_Produk/Add") ?>" class="btn btn-primary"><i class="fa-solid fa-plus me-1"></i>Tambah Produk</a>
 
     <table class="table table-striped table-hover">
         <thead>
@@ -20,7 +20,7 @@
                 <tr>
                     <td><?= $item["idProduk"] ?></td>
 
-                    <td><?= $item["idMitra"] ?></td>
+                    <td><?= $item["NamaProduk"] ?></td>
 
                     <td><?= $item["DeskripsiProduk"] ?></td>
 

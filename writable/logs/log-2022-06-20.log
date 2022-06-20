@@ -64,3 +64,62 @@ CRITICAL - 2022-06-20 04:03:24 --> Invalid file: auth/V_ListFeedback.php
 #6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+ERROR - 2022-06-20 05:11:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-20 05:11:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Models\M_Feedback.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Home.php(17): App\Models\M_Feedback->getAllFeedback()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-20 05:11:45 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-20 05:11:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Models\M_Feedback.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Home.php(17): App\Models\M_Feedback->getAllFeedback()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-20 05:22:20 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-06-20 05:22:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pr...', Array, false)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Models\M_Produk.php(73): CodeIgniter\Database\BaseBuilder->delete()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(142): App\Models\M_Produk->deleteProduk('1')
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->delete('1')
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-20 05:25:13 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(161): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(119): App\Controllers\Admin\C_Produk->uploadImage('new_foto')
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->editProcess('4')
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 05:32:43 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(161): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(119): App\Controllers\Admin\C_Produk->uploadImage('new_foto')
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->editProcess('5')
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
