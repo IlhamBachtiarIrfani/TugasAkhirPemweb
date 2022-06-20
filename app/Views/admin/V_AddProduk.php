@@ -1,45 +1,39 @@
 <div class="container">
-    <h1 class="mb-5">Detail Produk</h1>
+    <h1 class="mb-5">Tambah Produk</h1>
     <!-- action = link controller buat proses tambah -->
-    <form action="<?= base_url("Admin/C_Slider/AddProcess") ?>" method="POST" enctype="multipart/form-data">
-        <div class="mb-3 row g-3 align-items-center">
-            <div class="col-3">
-                <label class="form-label">Nama Produk</label>
-            </div>
-            <div class="col-9">
-                <input type="text" name="judul" class="form-control" placeholder="Nama Produk">
-            </div>
-        </div>
-        <div class="mb-3 row g-3 align-items-center">
-            <div class="col-3">
-                <label class="form-label">Gambar Produk</label>
-            </div>
-            <div class="col-9">
-                <input type="file" accept="image/*" name="gambar" class="form-control">
-            </div>
-        </div>
-        <div class="mb-3 row g-3 align-items-start mt-3">
-            <div class="col-3">
-                <label class="form-label">Deskripsi Produk</label>
-            </div>
-            <div class="col-9"> <textarea name="deskripsi" class="form-control" placeholder="Deskripsi Produk" rows="5"></textarea>
-            </div>
+    <form action="<?= base_url("Admin/C_Produk/AddProcess") ?>" method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label  class="form-label">Nama Produk</label>
+            <!-- JANLUP EDIT NAME INPUT NYA -->
+            <input type="text" name="nama" class="form-control" placeholder="Nama Produk">
         </div>
 
-        <div class="row g-3 align-items-center">
-            <div class="col-3">
-                <label for="form-label">Harga</label>
-            </div>
-            <div class="col-9">
-                <div class="input-group mb-3">
-                    <span class="input-group-text">Rp</span>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    <span class="input-group-text">.00</span>
-                </div>
-            </div>
+        <div class="mb-3">
+            <label  class="form-label">Deskripsi Produk</label>
+            <!-- JANLUP EDIT NAME INPUT NYA -->
+            <textarea name="deskripsi" class="form-control" placeholder="Deskripsi Produk" rows="5"></textarea>
         </div>
+
+        <div class="mb-3">
+            <label  class="form-label">Foto Produk</label>
+            <!-- JANLUP EDIT NAME INPUT NYA -->
+            <input type="file" accept="image/*" name="foto" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label  class="form-label">Harga Produk</label>
+            <!-- JANLUP EDIT NAME INPUT NYA -->
+            <textarea name="harga" class="form-control" placeholder="Harga Produk" rows="5"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label  class="form-label">Rating Produk</label>
+            <!-- JANLUP EDIT NAME INPUT NYA -->
+            <textarea name="rating" class="form-control" placeholder="Rating Produk" rows="5"></textarea>
+        </div>
+
         <!-- tombol submit -->
-        <button type="submit" class="btn btn-primary">Tambah Produk</button>
+        <button type="submit" class="btn btn-primary">Tambahkan Produk</button>
 
         <!-- tombol back/cancel -->
         <a href="<?= base_url("Admin/C_Slider") ?>" class="btn btn-outline-primary">Batal</a>

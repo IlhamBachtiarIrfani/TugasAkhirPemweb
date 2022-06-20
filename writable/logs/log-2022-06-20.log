@@ -1,0 +1,66 @@
+CRITICAL - 2022-06-20 03:58:09 --> Invalid file: auth/V_ListFeedback.php
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/V_ListFeed...')
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/V_ListFeed...', Array, true)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(28): view('auth/V_ListFeed...', Array)
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 03:58:18 --> Invalid file: auth/V_ListFeedback.php
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/V_ListFeed...')
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/V_ListFeed...', Array, true)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(28): view('auth/V_ListFeed...', Array)
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 03:58:35 --> Undefined array key "id_slider"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_EditProduk.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_EditPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(88): view('admin/V_EditPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->edit('1')
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-20 03:59:30 --> Undefined array key "judul"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Slider->editProcess('1')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Slider))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-20 03:59:45 --> Undefined array key "judul"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Slider->editProcess('1')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Slider))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-20 04:02:46 --> Undefined array key "judul"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Slider.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Slider->editProcess('1')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Slider))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-20 04:03:24 --> Invalid file: auth/V_ListFeedback.php
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/V_ListFeed...')
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/V_ListFeed...', Array, true)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Feedback.php(28): view('auth/V_ListFeed...', Array)
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Feedback->index()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Feedback))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
