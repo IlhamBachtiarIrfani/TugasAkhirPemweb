@@ -7,25 +7,25 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 
 // ini buat import model
-use App\Models\M_Slider;
+use App\Models\M_Produk;
 
-class C_Slider extends BaseController
+class C_Produk extends BaseController
 {
     // ini halaman list slider
     public function index()
     {
         // ini buat inisiasi objek model slider
-        $ModelSlider = new M_Slider();
+        $ModelProduk = new M_Produk();
 
         // ini buat menggil method getAllSlider biar dapet data slidernya apa aja
-        $result = $ModelSlider->getAllSlider();
+        $result = $ModelProduk->getAllProduk();
 
         // variabel data nanti yang dikirim ke view
-        $data["sliderData"] = $result;
+        $data["dataProduk"] = $result;
 
         echo view("general/admin_header");
         // datanya ditaruh situ biar ke kirim ke view dan bisa diakses di view
-        echo view("admin/V_ListSlider", $data);
+        echo view("admin/V_ListProduk", $data);
         echo view("general/admin_footer");
     }
 
@@ -33,58 +33,59 @@ class C_Slider extends BaseController
     public function add()
     {
         echo view("general/admin_header");
-        echo view("admin/V_AddSlider");
+        echo view("admin/V_AddProduk");
         echo view("general/admin_footer");
     }
 
-    // ini method buat proses add slider
     public function addProcess()
     {
-        // judul itu name inputnya
-        $judul = $_POST["judul"];
+        $nama = $_POST["nama"];
 
-        // deskripsi itu name inputnya
         $deskripsi = $_POST["deskripsi"];
 
+        $harga = $_POST["harga"];
+
+        $rating = $_POST["rating"];
+
         // di cek dulu inputnya ada apa enggak
-        if (isset($judul) && isset($deskripsi)) {
+        if (isset($nama) && isset($deskripsi)) {
 
             // gambar itu name inputnya
-            $pathGambar = $this->uploadImage("gambar");
+            $pathGambar = $this->uploadImage("foto");
 
             // ini buat inisiasi objek model slider
-            $ModelSlider = new M_Slider();
+            $ModelProduk = new M_Produk();
 
             // manggil method di model biar di insert di db
-            $result = $ModelSlider->addSlider($judul, $deskripsi, $pathGambar);
+            $result = $ModelProduk->addProduk($nama, $deskripsi, $pathGambar, $harga, $rating);
 
             if ($result) {
-                return redirect()->to('Admin/C_Slider');
+                return redirect()->to('Admin/C_Produk');
             } else {
-                echo "Penambahan Slider Gagal!";
+                echo "Penambahan Produk Gagal!";
             }
         }
     }
 
-    // ini halaman edit slider
+    // ini halaman edit webinar
     public function edit($id = null)
     {
         // ini buat inisiasi objek model slider
-        $ModelSlider = new M_Slider();
+        $ModelProduk = new M_Produk();
 
         // manggil method di model biar dapet data berdasarkan idnya
-        $sliderData = $ModelSlider->getSliderById($id);
+        $dataProduk = $ModelProduk->getProdukById($id);
 
         // ngechek datanya ada apa enggak
-        if (!isset($sliderData)) {
+        if (!isset($dataProduk)) {
             return "Data tidak ditemukan";
         }
 
         // variabel data nanti yang dikirim ke view
-        $data["sliderData"] = $sliderData;
+        $data["dataProduk"] = $dataProduk;
 
         echo view("general/admin_header");
-        echo view("admin/V_EditSlider", $data);
+        echo view("admin/V_EditProduk", $data);
         echo view("general/admin_footer");
     }
 
@@ -92,19 +93,25 @@ class C_Slider extends BaseController
     public function editProcess($id)
     {
         // judul itu name inputnya
-        $judul = $_POST["judul"];
+        $nama = $_POST["nama"];
 
         // deskripsi itu name inputnya
         $deskripsi = $_POST["deskripsi"];
 
 
         // deskripsi itu name inputnya
-        $oldGambar = $_POST["old_gambar"];
+        $oldFoto = $_POST["old_foto"];
+
+        // deskripsi itu name inputnya
+        $harga = $_POST["harga"];
+
+        // deskripsi itu name inputnya
+        $rating = $_POST["rating"];
 
         // di cek dulu inputnya ada apa enggak
-        if (isset($judul) && isset($deskripsi)) {
+        if (isset($nama) && isset($deskripsi)) {
             // set default path dari gambar lama
-            $pathGambar = $oldGambar;
+            $foto = $oldFoto;
 
             // upload gambar kalo ada yang baru aja
             if ($_FILES['new_gambar']['size'] == 0 && $_FILES['new_gambar']['error'] == 0) {
@@ -113,15 +120,15 @@ class C_Slider extends BaseController
             }
 
             // ini buat inisiasi objek model slider
-            $ModelSlider = new M_Slider();
+            $ModelProduk = new M_Produk();
 
             // manggil method di model biar di update di db
-            $result = $ModelSlider->editSlider($id, $judul, $deskripsi, $pathGambar);
+            $result = $ModelProduk->editProduk($id, $nama, $foto, $deskripsi, $harga, $rating);
 
-            if ($result >= 0) {
-                return redirect()->to('Admin/C_Slider');
+            if ($result) {
+                return redirect()->to('Admin/C_Produk');
             } else {
-                echo "Perubahan Slider Gagal!";
+                echo "Perubahan Produk Gagal!";
             }
         }
     }
@@ -129,15 +136,15 @@ class C_Slider extends BaseController
     public function delete($id = null)
     {
         // ini buat inisiasi objek model slider
-        $ModelSlider = new M_Slider();
+        $ModelProduk = new M_Produk();
 
         // manggil method di model biar di delete di db
-        $result = $ModelSlider->deleteSlider($id);
+        $result = $ModelProduk->deleteProduk($id);
 
         if ($result) {
-            return redirect()->to('Admin/C_Slider');
+            return redirect()->to('Admin/C_Produk');
         } else {
-            echo "Penghapusan Slider Gagal!";
+            echo "Penghapusan Produk Gagal!";
         }
     }
 

@@ -1,0 +1,148 @@
+ERROR - 2022-06-19 05:40:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-19 05:40:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Models\M_Feedback.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Home.php(17): App\Models\M_Feedback->getAllFeedback()
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-19 05:41:37 --> Class "codeigniter\Model" not found
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Pr...')
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Pr...')
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-19 05:57:45 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 05:57:45 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-19 05:59:57 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 05:59:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-19 06:08:19 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 06:08:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-19 06:08:20 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 06:08:20 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-19 06:08:21 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 06:08:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-19 06:08:21 --> Table 'tugasakhirpemweb.produk' doesn't exist
+CRITICAL - 2022-06-19 06:08:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(21): App\Models\M_Produk->getAllProduk()
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-19 06:13:58 --> Undefined variable $sliderData
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_ListProduk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(28): view('admin/V_ListPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-19 06:17:16 --> Undefined variable $sliderData
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_ListProduk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(28): view('admin/V_ListPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-19 06:19:36 --> Undefined variable $sliderData
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_ListProduk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(28): view('admin/V_ListPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-19 06:20:51 --> Undefined array key "rating"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_ListProduk.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(28): view('admin/V_ListPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-19 06:21:24 --> Undefined array key "id_slider"
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Views\admin\V_ListProduk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/V_ListPro...', Array, true)
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(28): view('admin/V_ListPro...', Array)
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->index()
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-19 06:22:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\app\Controllers\Admin\C_Produk.php(135): CodeIgniter\Model->__call('deleteSlider', Array)
+#3 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\C_Produk->delete('1')
+#4 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\C_Produk))
+#5 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TugasAkhir\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

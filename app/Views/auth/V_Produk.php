@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>D&S Inc. - Webinar</title>
+    <title>D&S Inc. - Produk</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -68,7 +68,7 @@
                     <span class="badge bg-light text-dark">10 November 2021</span>
                     <span class="badge bg-light text-dark">15:00 - 17:30</span>
                   </div>
-                  <a href="<?= base_url("C_DetailWebinar") ?>" class="btn btn-primary w-100 mt-3">Lihat Detail</a>
+                  <a href="C_DetailWebinar"class="btn btn-primary w-100 mt-3">Lihat Detail</a>
                 </div>
               </div>
             </div>
