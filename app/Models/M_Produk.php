@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class M_Produk extends Model {
 
-     public function addProduk($namaProduk, $foto, $deskripsi, $harga, $rating)
+     public function addProduk($namaProduk, $deskripsi, $foto, $harga, $rating)
      {
          $query = $this->db->table("produk_mitra");
  
