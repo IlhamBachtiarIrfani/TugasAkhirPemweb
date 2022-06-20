@@ -78,3 +78,15 @@ CRITICAL - 2022-06-20 10:41:39 --> Invalid file: admin/V_AddFeedback.php
 #6 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\Pemweb\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-06-20 11:19:20 --> Undefined variable $sliderData
+#0 D:\Xampp\htdocs\TugasAkhirPemweb\app\Views\auth\V_Webinar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 26)
+#1 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/V_Webinar', Array, true)
+#4 D:\Xampp\htdocs\TugasAkhirPemweb\app\Controllers\C_Webinar.php(17): view('auth/V_Webinar', Array)
+#5 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\C_Webinar->index()
+#6 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Webinar))
+#7 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp\htdocs\TugasAkhirPemweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\TugasAkhirPemweb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
