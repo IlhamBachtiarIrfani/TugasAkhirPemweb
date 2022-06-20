@@ -18,7 +18,7 @@
 
         <div class="mb-3">
             <label class="form-label">Berikan Rating Anda</label>
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <div class="btn-group ms-2" role="group" aria-label="Basic radio toggle button group">
                 <input type="radio" class="btn-check" name="rating" value="1" id="btnradio1" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio1">1</label>
 

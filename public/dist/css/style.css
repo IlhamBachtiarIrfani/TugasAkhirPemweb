@@ -1,5 +1,7 @@
 * {
     font-family: "Poppins", sans-serif;
+    border-radius: 0px;
+    border: 0px;
 }
 
 .justify-paragraph {
@@ -146,3 +148,17 @@
     margin-bottom: 10px;
 }
 
+body{
+    margin: 0px;
+    font-family:Playfair Display !important;
+    background: fixed !important;
+}
+
+.height-vh{
+    height: 100vh;
+}
+
+#comment-container{
+    padding: 40px !important;
+    background: white;
+}
