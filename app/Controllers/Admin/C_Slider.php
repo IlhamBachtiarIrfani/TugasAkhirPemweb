@@ -107,7 +107,7 @@ class C_Slider extends BaseController
             $pathGambar = $oldGambar;
 
             // upload gambar kalo ada yang baru aja
-            if ($_FILES["new_gambar"]) {
+            if ($_FILES['new_gambar']['size'] == 0 && $_FILES['new_gambar']['error'] == 0) {
                 // gambar itu name inputnya
                 $pathGambar = $this->uploadImage("new_gambar");
             }
@@ -118,7 +118,7 @@ class C_Slider extends BaseController
             // manggil method di model biar di update di db
             $result = $ModelSlider->editSlider($id, $judul, $deskripsi, $pathGambar);
 
-            if ($result) {
+            if ($result >= 0) {
                 return redirect()->to('Admin/C_Slider');
             } else {
                 echo "Perubahan Slider Gagal!";
