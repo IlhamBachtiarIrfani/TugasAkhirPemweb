@@ -49,10 +49,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="font-header">Rekomendasi Webinar</h2>
+          <h2 class="font-header">Daftar Produk</h2>
         </div>
         <div class="col-lg-9 mb-4">
-          <p class="font1">Terdapat 15 webinar yang tersedia</p>
+          <p class="font1">Lebih dari 1000 produk tentang Gaming Gear</p>
 
           <!-- GRID -->
           <div class="row mt-4">
