@@ -67,7 +67,7 @@ class C_Produk extends BaseController
         }
     }
 
-    // ini halaman edit slider
+    // ini halaman edit webinar
     public function edit($id = null)
     {
         // ini buat inisiasi objek model slider
@@ -144,7 +144,7 @@ class C_Produk extends BaseController
         if ($result) {
             return redirect()->to('Admin/C_Produk');
         } else {
-            echo "Penghapusan Slider Gagal!";
+            echo "Penghapusan Produk Gagal!";
         }
     }
 
