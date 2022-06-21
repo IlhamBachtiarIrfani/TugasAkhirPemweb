@@ -34,7 +34,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => 'rahasia',
+        'password' => '',
         'database' => 'tugasakhirpemweb',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
